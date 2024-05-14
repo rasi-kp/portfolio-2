@@ -7,7 +7,7 @@ const AboutMe = () => {
   }
   return (
     <div className="container-fluid text-center my-5 py-5" id="about">
-      <h3 className="py-5 ">
+      <h3 className="pt-3 ">
         About <span>Me</span>!
       </h3>
       <div className="container my-5">

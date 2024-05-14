@@ -2,6 +2,9 @@ import React from "react";
 import "./Certificate.css";
 
 const Projects = () => {
+  function more() {
+    window.open('https://drive.google.com/drive/u/0/folders/1mhJ1R-VeqH2YjN_qPH3S86Ks9X48skf6', '_blank');
+  }
   return (
     <div className="container-fluid my-5 py-5 text-center" id="projects">
       {/* <div class="container"> */}
@@ -33,6 +36,9 @@ const Projects = () => {
             />
           </div>
         </div>
+        <button onClick={more} className="button ">
+          More Certificate
+        </button>
       </div>
     </div>
   );

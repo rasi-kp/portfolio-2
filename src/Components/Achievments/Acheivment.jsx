@@ -2,12 +2,15 @@ import React from "react";
 import "./Achievment.css";
 
 const Projects = () => {
+  function more() {
+    window.open('https://drive.google.com/drive/u/0/folders/1lY5TRBzF1AMS6UhEs-msZC6o4G7OhXXp', '_blank');
+  }
   return (
     <div className="container-fluid my-5 py-5 text-center" id="projects">
       {/* <div class="container"> */}
-        <h4 class="py-3 ">
-          My <span>Awards and Achievements</span>
-        </h4>
+      <h4 class="py-3 ">
+        My <span>Awards and Achievements</span>
+      </h4>
       {/* </div> */}
       <div className="container my-1">
         <div class="row">
@@ -32,8 +35,10 @@ const Projects = () => {
               className="img-fluid shadow rounded "
             />
           </div>
-
         </div>
+        <button onClick={more} className="button ">
+          More 
+        </button>
       </div>
     </div>
   );
