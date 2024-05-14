@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutMe.css";
+import about from '../../assets/rasi full.jpg'
 
 const AboutMe = () => {
   function openlinkdin() {
@@ -14,7 +15,7 @@ const AboutMe = () => {
         <div className="row align-items-center">
           <div className="col-12 col-lg-4">
             <img
-              src="../src/assets/rasi full.jpg"
+              src={about}
               alt="sisindri singamsetti"
               className="img-fluid shadow"
             />
