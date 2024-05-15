@@ -1,6 +1,10 @@
 import React from "react";
 import "./Certificate.css";
 
+import c1 from '../../assets/c1.jpg'
+import c2 from '../../assets/c2.jpg'
+import c3 from '../../assets/c3.jpg'
+
 const Projects = () => {
   function more() {
     window.open('https://drive.google.com/drive/u/0/folders/1mhJ1R-VeqH2YjN_qPH3S86Ks9X48skf6', '_blank');
@@ -16,21 +20,21 @@ const Projects = () => {
         <div class="row">
           <div class="col-12 col-md-4 px-4 py-4 projImg">
             <img
-              src="../src/assets/c1.jpg"
+              src={c1}
               alt="Project 1"
               className="img-fluid shadow rounded"
             />
           </div>
           <div class="col-12 col-md-4 px-4 py-4 projImg">
             <img
-              src="../src/assets/c2.jpg"
+              src={c2}
               alt="Project 1"
               className="img-fluid shadow rounded"
             />
           </div>
           <div class="col-12 col-md-4 px-4 py-4 projImg">
             <img
-              src="../src/assets/c3.jpg"
+              src={c3}
               alt="Project 1"
               className="img-fluid shadow rounded "
             />

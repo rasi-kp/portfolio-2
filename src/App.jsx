@@ -14,7 +14,6 @@ const App = () => {
     <>
       <Navbar />
       <Cover />
-      {/* <DivSpace /> */}
       <AboutMe />
       <Skills />
       <Projects />

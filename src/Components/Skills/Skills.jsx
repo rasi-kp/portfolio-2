@@ -1,6 +1,19 @@
 import React from "react";
 import "./Skills.css";
 
+import html from '../../assets/icons/html.png'
+import bootstrap from '../../assets/icons/bootstrap.png'
+import css from '../../assets/icons/css.png'
+import aws from '../../assets/icons/aws.png'
+import docker from '../../assets/icons/docker.png'
+import git from '../../assets/icons/git.png'
+import js from '../../assets/icons/js.png'
+import mongo from '../../assets/icons/mongo.png'
+import node from '../../assets/icons/node.png'
+import p from '../../assets/icons/p.png'
+import react from '../../assets/icons/react.png'
+import tailwind from '../../assets/icons/tailwind.svg'
+
 const Skills = () => {
   return (
     <div className="container-fluid my-5 py-5 text-center" id="skills">
@@ -14,7 +27,7 @@ const Skills = () => {
               <div className="col-6 col-sm-4 col-lg-3 py-3 px-3">
                 <a className="text-decoration-none">
                   <img
-                    src="../src/assets/icons/html.png"
+                    src={html}
                     alt="HTML"
                     className="img-fluid w-50"
                   />
@@ -27,7 +40,7 @@ const Skills = () => {
               <div className="col-6 col-sm-4 col-lg-3 py-3 px-3">
                 <a className="text-decoration-none">
                   <img
-                    src="../src/assets/icons/css.png"
+                    src={css}
                     alt="CSS"
                     className="img-fluid w-50"
                   />
@@ -39,7 +52,7 @@ const Skills = () => {
               <div className="col-6 col-sm-4 col-lg-3 py-3 px-3">
                 <a className="text-decoration-none">
                   <img
-                    src="../src/assets/icons/js.png"
+                    src={js}
                     alt="JavaScript"
                     className="img-fluid w-50"
                   />
@@ -51,7 +64,7 @@ const Skills = () => {
               <div className="col-6 col-sm-4 col-lg-3 py-3 px-3">
                 <a className="text-decoration-none">
                   <img
-                    src="../src/assets/icons/bootstrap.png"
+                    src={bootstrap}
                     alt="Bootstrap"
                     className="img-fluid w-50"
                   />
@@ -64,8 +77,8 @@ const Skills = () => {
               <div className="col-6 col-sm-4 col-lg-3 py-3 px-3">
                 <a className="text-decoration-none">
                   <img
-                    src="../src/assets/icons/node.png"
-                    alt="Python"
+                    src={node}
+                    alt="Node"
                     className="img-fluid w-50"
                   />
                   <h6 className="text-white mt-3">
@@ -76,8 +89,8 @@ const Skills = () => {
               <div className="col-6 col-sm-4 col-lg-3 py-3 px-3">
                 <a className="text-decoration-none">
                   <img
-                    src="../src/assets/icons/mongo.png"
-                    alt="Python"
+                    src={mongo}
+                    alt="Mongo"
                     className="img-fluid w-50"
                   />
                   <h6 className="text-white mt-3">
@@ -88,8 +101,8 @@ const Skills = () => {
               <div className="col-6 col-sm-4 col-lg-3 py-3 px-3">
                 <a className="text-decoration-none">
                   <img
-                    src="../src/assets/icons/docker.png"
-                    alt="Python"
+                    src={docker}
+                    alt="Docker"
                     className="img-fluid w-50"
                   />
                   <h6 className="text-white mt-3">
@@ -100,8 +113,8 @@ const Skills = () => {
               <div className="col-6 col-sm-4 col-lg-3 py-3 px-3">
                 <a className="text-decoration-none">
                   <img
-                    src="../src/assets/icons/aws.png"
-                    alt="Python"
+                    src={aws}
+                    alt="Aws"
                     className="img-fluid w-50"
                   />
                   <h6 className="text-white mt-3">
@@ -112,8 +125,8 @@ const Skills = () => {
               <div className="col-6 col-sm-4 col-lg-3 py-3 px-3">
                 <a className="text-decoration-none">
                   <img
-                    src="../src/assets/icons/p.png"
-                    alt="Python"
+                    src={p}
+                    alt="P"
                     className="img-fluid w-50"
                   />
                   <h6 className="text-white mt-3">
@@ -124,7 +137,7 @@ const Skills = () => {
               <div className="col-6 col-sm-4 col-lg-3 py-3 px-3">
                 <a className="text-decoration-none">
                   <img
-                    src="../src/assets/icons/react.png"
+                    src={react}
                     alt="React"
                     className="img-fluid w-50"
                   />
@@ -136,8 +149,8 @@ const Skills = () => {
               <div className="col-6 col-sm-4 col-lg-3 py-3 px-3">
                 <a className="text-decoration-none">
                   <img
-                    src="../src/assets/icons/git.png"
-                    alt="React"
+                    src={git}
+                    alt="Git"
                     className="img-fluid w-50"
                   />
                   <h6 className="text-white mt-3">
@@ -148,8 +161,8 @@ const Skills = () => {
               <div className="col-6 col-sm-4 col-lg-3 py-3 px-3">
                 <a className="text-decoration-none">
                   <img
-                    src="../src/assets/icons/tailwind.svg"
-                    alt="React"
+                    src={tailwind}
+                    alt="Tailwind"
                     className="img-fluid w-50"
                   />
                   <h6 className="text-white mt-3">
@@ -168,13 +181,6 @@ const Skills = () => {
             </p>
            
           </div>
-          {/* <div className="col-12 col-lg-6 my-3" id="skillImg">
-            <img
-              src="../src/assets/s.jpg"
-              alt="sisi_tarak"
-              className="img-fluid shadow rounded w-75"
-            />
-          </div> */}
         </div>
       </div>
     </div>

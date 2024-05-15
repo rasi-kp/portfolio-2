@@ -1,5 +1,8 @@
 import React from "react";
 import "./Achievment.css";
+import a1 from '../../assets/a1.jpg'
+import a2 from '../../assets/a2.jpg'
+import a3 from '../../assets/a3.jpg'
 
 const Projects = () => {
   function more() {
@@ -16,21 +19,21 @@ const Projects = () => {
         <div class="row">
           <div class="col-12 col-md-4 px-4 py-4 projImg">
             <img
-              src="../src/assets/a1.jpg"
+              src={a1}
               alt="Project 1"
               className="img-fluid shadow rounded"
             />
           </div>
           <div class="col-12 col-md-4 px-4 py-4 projImg">
             <img
-              src="../src/assets/a2.jpg"
+              src={a2}
               alt="Project 1"
               className="img-fluid shadow rounded"
             />
           </div>
           <div class="col-12 col-md-4 px-4 py-4 projImg">
             <img
-              src="../src/assets/a3.jpg"
+              src={a3}
               alt="Project 1"
               className="img-fluid shadow rounded "
             />

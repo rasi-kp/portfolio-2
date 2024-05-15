@@ -1,5 +1,11 @@
 import React from "react";
 import "./Projects.css";
+import ayisha from '../../assets/ayisha.png'
+import p3 from '../../assets/p3.png'
+import p5 from '../../assets/p5.jpg'
+import ecommerce from '../../assets/ecommerce.png'
+import rhms from '../../assets/rhms.png'
+import res1 from '../../assets/res1.png'
 
 const Projects = () => {
   function more() {
@@ -17,7 +23,7 @@ const Projects = () => {
           <div class="col-12 col-md-4 px-4 py-4 projImg">
             <span>RHMS-</span> Hospital <span>Management System</span>
             <img
-              src="../src/assets/rhms.png"
+              src={rhms}
               alt="Project 1"
               className="img-fluid shadow rounded"
             />
@@ -25,7 +31,7 @@ const Projects = () => {
           <div class="col-12 col-md-4 px-4 py-4 projImg">
             <span>Ras Shopping-</span> e-commerce <span>Website</span>
             <img
-              src="../src/assets/ecommerce.png"
+              src={ecommerce}
               alt="Project 1"
               className="img-fluid shadow rounded"
             />
@@ -33,7 +39,7 @@ const Projects = () => {
           <div class="col-12 col-md-4 px-4 py-4 projImg">
             <span className="px-2">Patient</span> Health <span className="px-2">Monitoring System</span>
             <img
-              src="../src/assets/p3.png"
+              src={p3}
               alt="Project 1"
               className="img-fluid shadow rounded "
             />
@@ -41,7 +47,7 @@ const Projects = () => {
           <div class="col-12 col-md-4 px-4 py-4 projImg">
             <span>Controlling</span> Media <span>Player</span>
             <img
-              src="../src/assets/p5.jpg"
+              src={p5}
               alt="Project 1"
               className="img-fluid shadow rounded"
             />
@@ -49,7 +55,7 @@ const Projects = () => {
           <div class="col-12 col-md-4 px-4 py-4 projImg">
             <span>Health</span> Monitoring <span>Using IoT</span>
             <img
-              src="../src/assets/res1.png"
+              src={res1}
               alt="Project 1"
               className="img-fluid shadow rounded "
             />
@@ -57,7 +63,7 @@ const Projects = () => {
           <div class="col-12 col-md-4 px-4 py-4 projImg">
             <span>Ayisha</span> Quarters <span>Website</span>
             <img
-              src="../src/assets/ayisha.png"
+              src={ayisha}
               alt="Project 1"
               className="img-fluid shadow rounded"
             />
